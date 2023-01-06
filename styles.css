@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+  }
+  .general-container{
+    max-width: 100%;
+    max-height:100%;
+  }
+.first-div{
+  max-width:100%;
+ max-height:100%; 
+  background-image: url(netflix1.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.overlay{
+  background:rgba(0, 0, 0, 0.6) ;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height:100%;
+
+}
+.l-image{
+  max-width: 100%;
+  width: 140px;
+  height: auto;
+}
+.navbox{
+  max-width:100%
+}
+.text-box{
+  max-width:50%; 
+  text-align:center;
+  color: white;
+}
+.content{
+  min-width:100%; 
+ height:auto;
+ margin: 0;
+}
+.animation-text{
+  width: 100%;
+  height: 100%;
+  color:white;
+  margin: 90px 50px 30px 40px;
+  padding: 50px 10px 10px 50px;
+
+}
+.animation-card , .video-card.animation-card img{
+  position: relative;
+}
+.animation-card .img-card img{
+  max-width: 100%;
+  width:900px;
+  height: auto;
+}
+.video-card video{
+  position:absolute;
+  object-fit: contain;
+  max-width: 100%;
+  width: 350px;
+  height: auto;
+ transform: translateY(-50%);
+  top:40%;
+  left: 13%;
+  overflow:clip;
+  z-index: 2;
+
+  
+
+}
+h1{
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 650;
+}
+.animation-text1{
+  width: 100%;
+  height: 100%;
+  color:white;
+  margin: 90px 50px 30px 150px;
+  padding: 50px 10px 10px 75px;
+}
+.accordion-button{
+  background-color:#3c3c3c !important;
+  color: white !important;
+}
+.accordion-item{
+  background-color:#3c3c3c!important; 
+  color: white;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("close.svg");
+}
+
+.accordion-button::after {
+  background-image: url("cross.svg");
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
